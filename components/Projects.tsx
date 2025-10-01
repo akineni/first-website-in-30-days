@@ -5,7 +5,7 @@ export default function Projects() {
 		<section className="py-24">
 			<div className="container mx-auto px-6">
 				<h2 className="text-4xl font-extrabold text-center mb-16 gradient-text">
-					Projects You'll Build
+					{"Projects You'll Build"}
 				</h2>
 
 				<div className="grid md:grid-cols-3 gap-12">
