@@ -33,7 +33,7 @@ export default function Header() {
 
             {/* Main content */}
             <div className="container mx-auto px-6 text-center relative z-10">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 max-w-3xl mx-auto leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-rose-300 to-orange-300 animate-gradient-text">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 max-w-3xl mx-auto leading-tight md:leading-16 bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-rose-300 to-orange-300 animate-gradient-text">
                     Build Your First Website in Just 30 Days — No Experience Needed!
                 </h1>
                 <p className="text-base md:text-lg lg:text-xl mb-10 max-w-2xl mx-auto leading-relaxed text-gray-100">
