@@ -28,27 +28,135 @@
         .hero-text {
             color: #fff;
         }
+
+        /* Gradient background animation */
+        @keyframes gradient-x {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .animate-gradient-x {
+            background-size: 200% 200%;
+            animation: gradient-x 10s ease infinite;
+        }
+
+        /* Gradient text animation */
+        @keyframes gradient-text {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .animate-gradient-text {
+            background-size: 200% 200%;
+            animation: gradient-text 6s ease infinite;
+        }
+
+        /* Floating shapes */
+        @keyframes float-slow {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes float-slower {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(25px);
+            }
+        }
+
+        .animate-float-slow {
+            animation: float-slow 12s ease-in-out infinite;
+        }
+
+        .animate-float-slower {
+            animation: float-slower 18s ease-in-out infinite;
+        }
     </style>
 </head>
 
 <body class="bg-gray-50">
-    <!-- Hero Section -->
     <header class="text-white relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Animated Gradient Background -->
         <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 to-pink-600 animate-gradient-x"></div>
 
+        <!-- Floating abstract shapes -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none hidden lg:block">
+            <span
+                class="absolute w-72 h-72 bg-pink-500 rounded-full opacity-30 animate-float-slow top-10 left-10"></span>
+            <span
+                class="absolute w-96 h-96 bg-indigo-400 rounded-full opacity-20 animate-float-slower bottom-20 right-20"></span>
+        </div>
+
+        <!-- Floating tech icons -->
+        <div class="absolute inset-0 pointer-events-none hidden lg:block">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                class="absolute w-16 top-20 left-10 opacity-20 animate-float-slow">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                class="absolute w-20 top-40 right-20 opacity-15 animate-float-slower">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                class="absolute w-12 bottom-10 left-1/3 opacity-25 animate-float-slow">
+        </div>
+
+        <!-- Main content -->
         <div class="container mx-auto px-6 text-center relative z-10">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 max-w-3xl mx-auto leading-tight">
+            <h1
+                class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 max-w-3xl mx-auto leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 via-pink-400 to-indigo-500 animate-gradient-text">
                 Build Your First Website in Just 30 Days — No Experience Needed!
             </h1>
             <p class="text-base md:text-lg lg:text-xl mb-10 max-w-2xl mx-auto leading-relaxed text-gray-100">
                 Learn HTML, CSS, and JavaScript through live sessions and hands-on projects. Start your journey to
-                becoming a web developer today!
+                becoming
+                a web developer today!
             </p>
             <a href="#register"
                 class="bg-yellow-400 text-gray-900 font-bold py-5 px-12 rounded-full shadow-2xl hover:bg-yellow-500 inline-block transform hover:scale-110 transition">
                 Reserve Your Spot
             </a>
         </div>
+
+        <!-- Wave SVG at bottom -->
+        <!-- I generated the svg at https://getwaves.io -->
+        <!-- Mobile -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"
+            class="absolute bottom-0 left-0 w-full h-32 block md:hidden">
+            <path fill="#f9fafb" fill-opacity="1"
+                d="M0,192L60,186.7C120,181,240,171,360,181.3C480,192,600,224,720,240C840,256,960,256,1080,250.7C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+
+        <!-- Larger screens -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"
+            class="absolute bottom-0 left-0 w-full h-32 hidden md:block">
+            <path fill="#f9fafb" fill-opacity="1"
+                d="M0,0L30,32C60,64,120,128,180,133.3C240,139,300,85,360,85.3C420,85,480,139,540,186.7C600,235,660,277,720,256C780,235,840,149,900,133.3C960,117,1020,171,1080,170.7C1140,171,1200,117,1260,90.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            </path>
+        </svg>
     </header>
 
     <!-- Value Proposition -->
@@ -122,7 +230,8 @@
 
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Week 1 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
+                <div
+                    class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
                     <div class="flex items-center mb-4">
                         <div
                             class="w-12 h-12 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-full text-lg font-bold mr-4">
@@ -138,7 +247,8 @@
                 </div>
 
                 <!-- Week 2 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
+                <div
+                    class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
                     <div class="flex items-center mb-4">
                         <div
                             class="w-12 h-12 flex items-center justify-center bg-purple-100 text-purple-600 rounded-full text-lg font-bold mr-4">
@@ -154,7 +264,8 @@
                 </div>
 
                 <!-- Week 3 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
+                <div
+                    class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
                     <div class="flex items-center mb-4">
                         <div
                             class="w-12 h-12 flex items-center justify-center bg-pink-100 text-pink-600 rounded-full text-lg font-bold mr-4">
@@ -170,7 +281,8 @@
                 </div>
 
                 <!-- Week 4 -->
-                <div class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
+                <div
+                    class="bg-white rounded-2xl shadow-md p-8 transform hover:scale-105 transition duration-300 hover:shadow-xl">
                     <div class="flex items-center mb-4">
                         <div
                             class="w-12 h-12 flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-full text-lg font-bold mr-4">
@@ -193,21 +305,24 @@
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-extrabold text-center mb-16 gradient-text">Projects You'll Build</h2>
             <div class="grid md:grid-cols-3 gap-12">
-                <div class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
+                <div
+                    class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
                     <img src="images/personal-page.jpg" alt="Personal Webpage" class="w-full">
                     <div class="p-6">
                         <h3 class="font-bold text-2xl mb-2">Personal Webpage</h3>
                         <p>Create a clean, professional personal webpage to showcase your skills.</p>
                     </div>
                 </div>
-                <div class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
+                <div
+                    class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
                     <img src="images/interactive-elements.jpg" alt="Interactive Elements" class="w-full">
                     <div class="p-6">
                         <h3 class="font-bold text-2xl mb-2">Interactive Elements</h3>
                         <p>Add buttons, forms, and interactive features using JavaScript.</p>
                     </div>
                 </div>
-                <div class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
+                <div
+                    class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
                     <img src="images/deployed-website-2.png" alt="Deployed Website" class="w-full">
                     <div class="p-6">
                         <h3 class="font-bold text-2xl mb-2">Deployed Website</h3>
@@ -226,7 +341,8 @@
             <div class="grid md:grid-cols-3 gap-12">
 
                 <!-- Testimonial 1 -->
-                <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
+                <div
+                    class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
                     <div class="flex items-center mb-6">
                         <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tunde O."
                             class="w-14 h-14 rounded-full border-2 border-indigo-600 mr-4">
@@ -239,7 +355,8 @@
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
+                <div
+                    class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
                     <div class="flex items-center mb-6">
                         <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ada A."
                             class="w-14 h-14 rounded-full border-2 border-purple-600 mr-4">
@@ -252,7 +369,8 @@
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
+                <div
+                    class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300">
                     <div class="flex items-center mb-6">
                         <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Emeka N."
                             class="w-14 h-14 rounded-full border-2 border-yellow-500 mr-4">
@@ -269,7 +387,7 @@
     </section>
 
     <!-- CTA / Register -->
-    <section id="register" class="py-24 px-6 text-center bg-gradient-to-b from-gray-100 to-gray-300">
+    <section id="register" class="py-24 px-6 text-center bg-gray-100">
         <h2 class="text-4xl font-extrabold mb-6 gradient-text">
             Secure Your Spot Today!
         </h2>
@@ -320,7 +438,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="bg-gradient-to-t from-gray-100 to-gray-300 py-24">
+    <section class="bg-gray-100 py-24">
         <div class="container mx-auto px-6 max-w-4xl">
             <h2 class="text-4xl font-extrabold text-center mb-16 gradient-text">Frequently Asked Questions</h2>
 
