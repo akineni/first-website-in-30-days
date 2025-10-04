@@ -40,7 +40,7 @@ export default function Projects() {
 					{/* Project 3 */}
 					<div className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
 						<img
-							src="images/deployed-website-2.png"
+							src="images/deployed-website.jpg"
 							alt="Deployed Website"
 							className="w-full"
 						/>
