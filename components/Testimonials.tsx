@@ -4,7 +4,7 @@ const testimonials = [
     {
         name: "Esther Olusoga",
         role: "Code Tutor",
-        image: "images/esther.jpg",
+        image: "images/esther.jpeg",
         border: "border-indigo-600",
         text: "Learning from Eniola was an amazing experience. He explains coding from the ground up and makes sure you truly understand every step until you can code on your own.",
     },
