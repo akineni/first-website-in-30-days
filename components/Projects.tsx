@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Projects() {
 	return (
@@ -11,10 +12,12 @@ export default function Projects() {
 				<div className="grid md:grid-cols-3 gap-12">
 					{/* Project 1 */}
 					<div className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
-						<img
-							src="images/personal-page.jpg"
+						<Image
+							src="/images/personal-page.jpg"
 							alt="Personal Webpage"
 							className="w-full"
+							width={1024}
+							height={1024}
 						/>
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Personal Webpage</h3>
@@ -26,10 +29,12 @@ export default function Projects() {
 
 					{/* Project 2 */}
 					<div className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
-						<img
-							src="images/interactive-elements.jpg"
+						<Image
+							src="/images/interactive-elements.jpg"
 							alt="Interactive Elements"
 							className="w-full"
+							width={1024}
+							height={1024}
 						/>
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Interactive Elements</h3>
@@ -39,10 +44,12 @@ export default function Projects() {
 
 					{/* Project 3 */}
 					<div className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition transform hover:scale-105">
-						<img
-							src="images/deployed-website.jpg"
+						<Image
+							src="/images/deployed-website.jpg"
 							alt="Deployed Website"
 							className="w-full"
+							width={1024}
+							height={1024}
 						/>
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Deployed Website</h3>

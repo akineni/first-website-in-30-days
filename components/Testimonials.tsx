@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 const testimonials = [
     {
         name: "Esther Olusoga",
         role: "Code Tutor",
-        image: "images/esther.jpeg",
+        image: "/images/esther.jpeg",
         border: "border-indigo-600",
         text: "Learning from Eniola was an amazing experience. He explains coding from the ground up and makes sure you truly understand every step until you can code on your own.",
     },
@@ -18,7 +19,7 @@ const testimonials = [
     {
         name: "Fawaz Abdul",
         role: "Software Engineer",
-        image: "images/fawaz.png",
+        image: "/images/fawaz.png",
         border: "border-yellow-500",
         text: "Starting out as a coder can be overwhelming, but this program explains everything clearly and step by step. It's perfect for beginners who want to see real progress in 30 days.",
     },
@@ -40,10 +41,12 @@ export default function Testimonials() {
                             className="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition duration-300"
                         >
                             <div className="flex items-center mb-6">
-                                <img
+                                <Image
                                     src={t.image}
                                     alt={t.name}
                                     className={`w-14 h-14 rounded-full border-2 ${t.border} mr-4`}
+                                    width={128}
+                                    height={128}
                                 />
                                 <div>
                                     <h3 className="font-bold">{t.name}</h3>

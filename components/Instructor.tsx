@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Instructor() {
@@ -7,10 +8,12 @@ export default function Instructor() {
         {/* Image */}
         <div className="relative">
           <div className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition duration-500">
-            <img
-              src="images/instructor.min.jpg"
+            <Image
+              src="/images/instructor.min.jpg"
               alt="Instructor Photo"
               className="w-full object-cover"
+              width={1024}
+              height={1280}
             />
           </div>
           <span className="absolute -top-6 -left-6 w-20 h-20 bg-gradient-to-r from-purple-600 to-pink-500 rounded-full opacity-80 animate-pulse"></span>
