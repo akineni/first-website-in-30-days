@@ -47,9 +47,9 @@ export default function FinalCTA() {
                 </h2>
 
                 <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-                    In just <span className="font-bold">30 days</span>, you'll go from 
+                    In just <span className="font-bold">30 days</span>, you&apos;ll go from 
                     beginner to building your own real website. 
-                    Don't just browse the web; <span className="underline">create it</span>.
+                    Don&apos;t just browse the web; <span className="underline">create it</span>.
                 </p>
 
                 <a
@@ -60,7 +60,7 @@ export default function FinalCTA() {
                 </a>
 
                 <p className="mt-6 text-sm opacity-90">
-                    Spots are limited. Don't miss your chance to start learning.
+                    Spots are limited. Don&apos;t miss your chance to start learning.
                 </p>
             </div>
         </section>

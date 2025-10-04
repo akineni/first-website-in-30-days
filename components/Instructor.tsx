@@ -23,25 +23,25 @@ export default function Instructor() {
             Meet Your Instructor
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="font-bold text-purple-600">
               Eniola Akinlonu (Akineni)
             </span>,{" "}
-            a fullstack web developer and mentor. I've been coding since 2015,
+            a fullstack web developer and mentor. I&apos;ve been coding since 2015,
             which gives me <span className="font-semibold">{new Date().getFullYear() - 2015}+ years of experience</span> building
             and deploying websites and web apps for individuals and businesses.
 
-            I'm also a graduate in <span className="font-semibold">Computer Science from Crawford University, 
+            I&apos;m also a graduate in <span className="font-semibold">Computer Science from Crawford University, 
             Igbesa, Ogun State</span>. Having walked the path from beginner to professional 
             developer, I know how confusing coding can feel at the start.
           </p>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            That's why I created the{" "}
+            That&apos;s why I created the{" "}
             <span className="font-semibold">Frontend in 30 Days</span> program:
             to guide you step by step from zero to building real websites, without the overwhelm.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            I'll be teaching you live, answering your questions directly, and making sure you leave this 
+            I&apos;ll be teaching you live, answering your questions directly, and making sure you leave this 
             program with the confidence to start building for clients.
           </p>
         </div>
