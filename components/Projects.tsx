@@ -19,8 +19,7 @@ export default function Projects() {
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Personal Webpage</h3>
 							<p>
-								Create a clean, professional personal webpage to showcase your
-								skills.
+								Build a clean, professional personal webpage that introduces you and showcases your skills.
 							</p>
 						</div>
 					</div>
@@ -34,7 +33,7 @@ export default function Projects() {
 						/>
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Interactive Elements</h3>
-							<p>Add buttons, forms, and interactive features using JavaScript.</p>
+							<p>Bring your site to life with buttons, forms, and interactive elements powered by JavaScript.</p>
 						</div>
 					</div>
 
@@ -48,8 +47,7 @@ export default function Projects() {
 						<div className="p-6">
 							<h3 className="font-bold text-2xl mb-2">Deployed Website</h3>
 							<p>
-								Deploy your fully functional webpage online and make it public
-								for potential employers or friends.
+								Deploy your finished website to the internet so friends, clients, and employers can see it live.
 							</p>
 						</div>
 					</div>

@@ -7,11 +7,11 @@ export default function RegisterCTA() {
       className="py-24 px-6 text-center bg-gray-100"
     >
       <h2 className="text-4xl font-extrabold mb-6 gradient-text">
-        Secure Your Spot Today!
+        Register Now and Start Building Websites in 30 Days
       </h2>
 
       <p className="text-lg mb-12 text-gray-700 max-w-2xl mx-auto">
-        Limited seats available. Start your journey to becoming a frontend developer.
+        Seats are limited. Take the first step toward becoming a frontend developer today.
       </p>
 
       <a

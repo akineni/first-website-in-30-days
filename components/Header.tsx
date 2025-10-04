@@ -34,11 +34,10 @@ export default function Header() {
             {/* Main content */}
             <div className="container mx-auto px-6 text-center relative z-10">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 max-w-3xl mx-auto leading-tight md:leading-16 bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-rose-300 to-orange-300 animate-gradient-text">
-                    Build Your First Website in Just 30 Days — No Experience Needed!
+                    Build Real Websites in 30 Days. No Experience Needed.
                 </h1>
                 <p className="text-base md:text-lg lg:text-xl mb-10 max-w-2xl mx-auto leading-relaxed text-gray-100">
-                    Learn HTML, CSS, and JavaScript through live sessions and hands-on
-                    projects. Start your journey to becoming a web developer today!
+                    Master HTML, CSS, and JavaScript with real classes and projects and kickstart your web developer journey today.
                 </p>
                 <a
                     href="#register"

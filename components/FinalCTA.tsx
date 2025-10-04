@@ -43,13 +43,13 @@ export default function FinalCTA() {
             {/* Content */}
             <div className="relative z-10 container mx-auto px-6">
                 <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-                    Ready to Launch Your Coding Journey?
+                    Ready to Start Your Coding Journey?
                 </h2>
 
                 <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-                    In just <span className="font-bold">30 days</span>, you’ll go from zero
-                    to building your own real website. Don’t just watch others create the
-                    web — <span className="underline">become the creator</span>.
+                    In just <span className="font-bold">30 days</span>, you'll go from 
+                    beginner to building your own real website. 
+                    Don't just browse the web; <span className="underline">create it</span>.
                 </p>
 
                 <a
@@ -60,8 +60,7 @@ export default function FinalCTA() {
                 </a>
 
                 <p className="mt-6 text-sm opacity-90">
-                    Limited free spots available for the first 2 days — after that,
-                    enrollment closes.
+                    Spots are limited. Don't miss your chance to start learning.
                 </p>
             </div>
         </section>

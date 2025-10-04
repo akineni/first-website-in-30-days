@@ -2,31 +2,31 @@
 import React, { useState } from "react";
 
 const faqs = [
-    {
-        question: "Do I need prior coding experience?",
-        answer:
-            "Nope! This program is designed for complete beginners. We start from the very basics and guide you step by step until you can build and deploy your first website.",
-    },
-    {
-        question: "What if I can't attend a live session?",
-        answer:
-            "Don't worry! All sessions will be recorded, and you'll get access to replays. You'll also be able to ask questions and get support afterward.",
-    },
-    {
-        question: "How much time will I need each week?",
-        answer:
-            "Just 2-3 sessions per week (about 2 hours each). If you practice a little in between, you'll see real progress in just 30 days.",
-    },
-    {
-        question: "What will I have by the end of the program?",
-        answer:
-            "You'll have a complete personal website built with HTML, CSS, and JavaScript — and it will be live on the internet to share with friends, employers, or clients.",
-    },
-    {
-        question: "Do I need a laptop for this program?",
-        answer:
-            "Yes, having a laptop will make it much easier to follow along, practice coding, and build projects. However, if you don't have one yet, you can start learning with a smartphone using free coding apps or an online editor, then switch to a laptop as you progress.",
-    },
+  {
+    question: "Do I need prior coding experience?",
+    answer:
+      "Not at all. This program is built for absolute beginners. We'll start from the very basics and guide you step by step until you can confidently build and launch your first website.",
+  },
+  {
+    question: "What if I miss a live session?",
+    answer:
+      "No problem. Every session is recorded, and you'll get full access to the replays. You can also ask questions afterward and still get the support you need.",
+  },
+  {
+    question: "How much time will I need each week?",
+    answer:
+      "We recommend 2 to 3 live sessions per week (about 2 hours each). Add a little practice in between, and you'll see real progress within just 30 days.",
+  },
+  {
+    question: "What will I have by the end of the program?",
+    answer:
+      "By the end, you'll have a complete personal website built with HTML, CSS, and JavaScript, fully deployed online for friends, employers, or clients to see.",
+  },
+  {
+    question: "Do I need a laptop for this program?",
+    answer:
+      "Yes, a laptop makes learning and building projects much easier. If you don't have one yet, you can start practicing with a smartphone using free coding apps or an online editor, then switch to a laptop when possible.",
+  },
 ];
 
 export default function FAQ() {

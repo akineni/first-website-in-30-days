@@ -5,7 +5,7 @@ export default function ValueProposition() {
     <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-extrabold text-center mb-16 gradient-text">
-          Why This Program is Perfect for Beginners
+          Perfect for Beginners and Built to Get You Results
         </h2>
 
         <div className="grid md:grid-cols-3 gap-12">
@@ -26,8 +26,7 @@ export default function ValueProposition() {
             </div>
             <h3 className="font-bold text-2xl mb-3">Simple & Structured</h3>
             <p>
-              Follow a step-by-step roadmap designed for beginners — no coding
-              experience needed.
+              Follow a step-by-step roadmap designed for beginners with no coding experience needed.
             </p>
           </div>
 
@@ -56,8 +55,7 @@ export default function ValueProposition() {
             </div>
             <h3 className="font-bold text-2xl mb-3">Hands-On Projects</h3>
             <p>
-              Create your first portfolio page, interactive buttons, and small
-              web apps during the program.
+              Create your first portfolio page, add interactive features, and build small web apps during the program.
             </p>
           </div>
 
@@ -82,8 +80,7 @@ export default function ValueProposition() {
             </div>
             <h3 className="font-bold text-2xl mb-3">Live Mentorship</h3>
             <p>
-              Attend live sessions and get guidance from an experienced
-              developer every step of the way.
+              Learn in live classes with expert guidance at every step.
             </p>
           </div>
         </div>

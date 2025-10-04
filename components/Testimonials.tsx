@@ -2,11 +2,11 @@ import React from "react";
 
 const testimonials = [
     {
-        name: "Tunde O.",
-        role: "Beginner Student",
-        image: "https://randomuser.me/api/portraits/men/32.jpg",
+        name: "Esther Olusoga",
+        role: "Code Tutor",
+        image: "images/esther.jpg",
         border: "border-indigo-600",
-        text: "This 30-day course gave me the confidence to build my first website. Amazing mentorship!",
+        text: "Learning from Eniola was an amazing experience. He explains coding from the ground up and makes sure you truly understand every step until you can code on your own.",
     },
     {
         name: "Ada A.",
@@ -16,11 +16,11 @@ const testimonials = [
         text: "Live sessions and real projects made learning so much easier. I now have a working webpage!",
     },
     {
-        name: "Emeka N.",
-        role: "Junior Coder",
-        image: "https://randomuser.me/api/portraits/men/76.jpg",
+        name: "Fawaz Abdul",
+        role: "Software Engineer",
+        image: "images/fawaz.png",
         border: "border-yellow-500",
-        text: "In just 30 days, I went from zero knowledge to my first deployed website. Highly recommend!",
+        text: "Starting out as a coder can be overwhelming, but this program explains everything clearly and step by step. It's perfect for beginners who want to see real progress in 30 days.",
     },
 ];
 
@@ -29,7 +29,8 @@ export default function Testimonials() {
         <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-24">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-extrabold text-center mb-16">
-                    What Students Say
+                    {/* What Students Say */}
+                    Trusted and Recommended by Others
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-12">

@@ -6,9 +6,9 @@ const weeks = [
         title: "HTML Basics",
         color: "bg-indigo-100 text-indigo-600",
         topics: [
-            "Page structure, headings, paragraphs",
-            "Lists, links, images",
-            "Create a simple personal webpage",
+            "Understand page structure with headings and paragraphs",
+            "Add links, lists, and images to your site",
+            "Build your first simple personal webpage",
         ],
     },
     {
@@ -16,9 +16,9 @@ const weeks = [
         title: "CSS Fundamentals",
         color: "bg-purple-100 text-purple-600",
         topics: [
-            "Colors, fonts, spacing",
-            "Flexbox & Grid layouts",
-            "Style your personal webpage beautifully",
+            "Work with colors, fonts, and spacing to style your site",
+            "Use Flexbox & Grid to create modern layouts",
+            "Transform your webpage into a clean, beautiful design",
         ],
     },
     {
@@ -26,9 +26,9 @@ const weeks = [
         title: "JavaScript Basics",
         color: "bg-pink-100 text-pink-600",
         topics: [
-            "Variables, functions, loops, events",
-            "DOM manipulation for interactivity",
-            "Add interactive features to your webpage",
+            "Learn variables, functions, loops, and events step by step",
+            "Use DOM manipulation to make your site interactive",
+            "Add features like clickable buttons and dynamic content",
         ],
     },
     {
@@ -36,9 +36,9 @@ const weeks = [
         title: "Final Project & Deployment",
         color: "bg-yellow-100 text-yellow-600",
         topics: [
-            "Combine HTML, CSS, and JS into a complete webpage",
-            "Deploy your website online using GitHub Pages",
-            "Showcase your work in your personal portfolio",
+            "Combine HTML, CSS, and JS into a polished project",
+            "Put your website online with GitHub Pages",
+            "Showcase your finished work in your personal portfolio",
         ],
     },
 ];
