@@ -10,11 +10,11 @@ const testimonials = [
         text: "Learning from Eniola was an amazing experience. He explains coding from the ground up and makes sure you truly understand every step until you can code on your own.",
     },
     {
-        name: "Ada A.",
-        role: "Student Developer",
-        image: "https://randomuser.me/api/portraits/women/44.jpg",
+        name: "David Ikukoyi",
+        role: "Frontend Developer",
+        image: "/images/david.jpeg",
         border: "border-purple-600",
-        text: "Live sessions and real projects made learning so much easier. I now have a working webpage!",
+        text: "I've worked with Eniola and he's genuinely one of the best people to learn from. He really knows his onions and makes complex topics easy to understand. He's super approachable and always willing to help. I highly recommend!",
     },
     {
         name: "Fawaz Abdul",
