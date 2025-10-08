@@ -1,4 +1,5 @@
 import React from "react";
+import { registerUrl } from "@/lib/config";
 
 export default function FinalCTA() {
     return (
@@ -53,7 +54,9 @@ export default function FinalCTA() {
                 </p>
 
                 <a
-                    href="#register"
+                    href={registerUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-white text-gray-900 font-bold py-5 px-12 rounded-full shadow-2xl inline-block transform hover:scale-110 transition"
                 >
                     Reserve Your Spot Now

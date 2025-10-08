@@ -1,4 +1,5 @@
 import React from "react";
+import { registerUrl } from "@/lib/config";
 
 export default function RegisterCTA() {
   return (
@@ -15,7 +16,9 @@ export default function RegisterCTA() {
       </p>
 
       <a
-        href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
+        href={registerUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-yellow-400 text-gray-900 font-bold py-5 px-14 rounded-full shadow-2xl cta hover:bg-yellow-500 inline-block transform hover:scale-110 transition"
       >
         Register Now

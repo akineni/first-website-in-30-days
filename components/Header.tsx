@@ -1,4 +1,5 @@
 import React from "react";
+import { registerUrl } from "@/lib/config";
 
 export default function Header() {
     return (
@@ -40,7 +41,9 @@ export default function Header() {
                     Master HTML, CSS, and JavaScript with real classes and projects and kickstart your web developer journey today.
                 </p>
                 <a
-                    href="#register"
+                    href={registerUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-yellow-400 text-gray-900 font-bold py-5 px-12 rounded-full shadow-2xl hover:bg-yellow-500 inline-block transform hover:scale-110 transition"
                 >
                     Reserve Your Spot

@@ -1,4 +1,5 @@
 import React from "react";
+import { whatsAppUrl } from "@/lib/config";
 
 export default function Footer() {
 	return (
@@ -75,7 +76,7 @@ export default function Footer() {
 
 				{/* WhatsApp */}
 				<a
-					href="https://wa.me/2349068857142"
+					href={whatsAppUrl}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:text-yellow-400 transition"
