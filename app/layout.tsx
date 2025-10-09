@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Frontend in 30 Days",
     images: [
       {
-        url: "images/site-preview.png",
+        url: "images/site-preview-1.png",
         width: 1228,
         height: 768,
         alt: "Frontend in 30 Days course preview",
