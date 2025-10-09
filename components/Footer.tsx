@@ -13,12 +13,12 @@ export default function Footer() {
 					href="https://akineni.vercel.app"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="hover:text-yellow-400 transition"
+					className="hover:text-yellow-400 transition flex items-center justify-center"
 					title="Portfolio"
 					aria-label="Portfolio"
 				>
 					<svg
-						className="w-6 h-6"
+						className="w-6 h-6 -translate-y-0.5"
 						fill="currentColor"
 						viewBox="0 0 24 24"
 						aria-hidden="true"
