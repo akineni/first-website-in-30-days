@@ -8,17 +8,39 @@ export default function Footer() {
 
 			{/* Social Icons */}
 			<div className="flex justify-center space-x-6">
+				{/* Portfolio */}
+				<a
+					href="https://akineni.vercel.app"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="hover:text-yellow-400 transition"
+					title="Portfolio"
+					aria-label="Portfolio"
+				>
+					<svg
+						className="w-6 h-6"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						aria-hidden="true"
+					>
+						<path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm10 16H4V8h16v12zm-8-10a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" />
+					</svg>
+				</a>
+
 				{/* GitHub */}
 				<a
 					href="https://github.com/akineni"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:text-yellow-400 transition"
+					title="GitHub"
+					aria-label="GitHub"
 				>
 					<svg
 						className="w-5 h-5"
 						fill="currentColor"
 						viewBox="0 0 24 24"
+						aria-hidden="true"
 					>
 						<path
 							fillRule="evenodd"
@@ -50,11 +72,14 @@ export default function Footer() {
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:text-yellow-400 transition"
+					title="LinkedIn"
+					aria-label="LinkedIn"
 				>
 					<svg
 						className="w-5 h-5"
 						fill="currentColor"
 						viewBox="0 0 24 24"
+						aria-hidden="true"
 					>
 						<path d="M19 0h-14c-2.761 
               0-5 2.239-5 5v14c0 2.761 2.239 
@@ -80,11 +105,14 @@ export default function Footer() {
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:text-yellow-400 transition"
+					title="WhatsApp"
+					aria-label="WhatsApp"
 				>
 					<svg
 						className="w-5 h-5"
 						fill="currentColor"
 						viewBox="0 0 24 24"
+						aria-hidden="true"
 					>
 						<path d="M20.52 3.48C18.2 1.16 15.21 
               0 12.02 0 5.39 0 .02 5.37.02 
