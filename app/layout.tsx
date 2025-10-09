@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "images/site-preview.png",
-        width: 1366,
+        width: 1228,
         height: 768,
         alt: "Frontend in 30 Days course preview",
       },
