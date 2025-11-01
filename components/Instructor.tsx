@@ -31,7 +31,7 @@ export default function Instructor() {
               Eniola Akinlonu (Akineni)
             </span>,{" "}
             a fullstack web developer and mentor. I&apos;ve been coding since 2015,
-            which gives me <span className="font-semibold">{new Date().getFullYear() - 2015}+ years of experience</span> building
+            which gives me <span className="font-semibold">{new Date().getFullYear() - 2020}+ years of experience</span> building
             and deploying websites and web apps for individuals and businesses.
 
             I&apos;m also a graduate in <span className="font-semibold">Computer Science from Crawford University, 
